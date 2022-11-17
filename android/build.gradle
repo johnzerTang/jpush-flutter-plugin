@@ -35,6 +35,8 @@ android {
 }
 
 dependencies {
-    implementation 'cn.jiguang.sdk:jpush-google:4.8.4'  // 此处以JPush 4.8.4 Google Play版本为例
-    implementation 'cn.jiguang.sdk:jcore-google:3.3.6'  // 此处以JCore 3.3.6 Google Play 版本为例。
+//    implementation 'cn.jiguang.sdk:jpush:4.0.9'
+//    implementation 'cn.jiguang.sdk:jcore:2.8.2'
+    implementation 'cn.jiguang.sdk:jpush-google:4.0.9'  // 此处以JPush 4.8.4 Google Play版本为例
+    implementation 'cn.jiguang.sdk:jcore-google:2.8.2'  // 此处以JCore 3.3.6 Google Play 版本为例。
 }
